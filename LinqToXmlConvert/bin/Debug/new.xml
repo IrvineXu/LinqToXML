@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<People>
+  <Person ID="YGBH0001">
+    <Name>小科</Name>
+    <Sex>男  </Sex>
+    <Age>24</Age>
+    <Tel>13100000000</Tel>
+    <QQ>3800000</QQ>
+    <Email>wangxiaokeXXX@126.com</Email>
+    <Address>吉林省长春市</Address>
+  </Person>
+  <Person ID="YGBH0002">
+    <Name>小李</Name>
+    <Sex>男  </Sex>
+    <Age>28</Age>
+    <Tel>13000000000</Tel>
+    <QQ>4000000</QQ>
+    <Email>lovelvshuXXX@163.com</Email>
+    <Address>吉林省长春市</Address>
+  </Person>
+  <Person ID="YGBH0003">
+    <Name>小刘</Name>
+    <Sex>男  </Sex>
+    <Age>24</Age>
+    <Tel>13800000000</Tel>
+    <QQ>10000000</QQ>
+    <Email>xiaoliuXXX@163.com</Email>
+    <Address>吉林省长春市</Address>
+  </Person>
+  <Person ID="YGBH0004">
+    <Name>小吕</Name>
+    <Sex>男  </Sex>
+    <Age>28</Age>
+    <Tel>13000000000</Tel>
+    <QQ>4000000</QQ>
+    <Email>lovelvshuXXX@163.com</Email>
+    <Address>吉林省长春市</Address>
+  </Person>
+  <Person ID="YGBH0005">
+    <Name>小王</Name>
+    <Sex>男  </Sex>
+    <Age>28</Age>
+    <Tel>13000000000</Tel>
+    <QQ>4000000</QQ>
+    <Email>xiaowang@163.com</Email>
+    <Address>吉林省长春市</Address>
+  </Person>
+  <Person ID="YGBH0006">
+    <Name>小赵</Name>
+    <Sex>男  </Sex>
+    <Age>28</Age>
+    <Tel>13000000000</Tel>
+    <QQ>4000000</QQ>
+    <Email>xiaozhao@163.com</Email>
+    <Address>吉林省长春市</Address>
+  </Person>
+</People>
