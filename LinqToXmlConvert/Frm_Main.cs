@@ -19,13 +19,13 @@ namespace LinqToXmlConvert
 
         private void Frm_Main_Load(object sender, EventArgs e)
         {
-            DataClassesDataContext dc = new DataClassesDataContext();//创建LINQ to SQL数据上下文类的对象
-            string xmlFilePath = Application.StartupPath + "\\new.xml";//取出xml文件的全路径
-            //使用LINQ to XML创建XML
+            DataClassesDataContext dc = new DataClassesDataContext();//Create LINQ to SQL datacontext object
+            string xmlFilePath = Application.StartupPath + "\\new.xml";//Retrieve the path of xml file
+            //Create the xml file
             XDocument doc = new XDocument(
                 new XDeclaration("1.0", "utf-8", "yes"),
                 new XElement("People",
-                    from p in dc.tb_Employee//根据LINQ to SQL取出的数据生成XML
+                    from p in dc.tb_Employee//Generate xml file with info get from database
                     select new XElement[]{
                 new XElement("Person",
                 new XAttribute("ID",p.ID),
@@ -39,8 +39,8 @@ namespace LinqToXmlConvert
                 )}
                     )
                 );
-            doc.Save(xmlFilePath);//保存XML文件
-            webBrowser1.Url = new Uri(xmlFilePath);//在窗体中呈现XML文件的内容
+            doc.Save(xmlFilePath);//Save xml file
+            webBrowser1.Url = new Uri(xmlFilePath);//Display content in Browser
         }
     }
 }
